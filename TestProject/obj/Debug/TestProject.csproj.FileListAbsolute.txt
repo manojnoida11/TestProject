@@ -1,0 +1,6 @@
+E:\Test_Apps\TestProject\TestProject\bin\Debug\TestProject.exe.config
+E:\Test_Apps\TestProject\TestProject\bin\Debug\TestProject.exe
+E:\Test_Apps\TestProject\TestProject\bin\Debug\TestProject.pdb
+E:\Test_Apps\TestProject\TestProject\obj\Debug\TestProject.csprojResolveAssemblyReference.cache
+E:\Test_Apps\TestProject\TestProject\obj\Debug\TestProject.exe
+E:\Test_Apps\TestProject\TestProject\obj\Debug\TestProject.pdb

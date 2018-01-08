@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Log>
+  <EN>
+    <Legend>L Starttime   Endtime     Thread Status  Details</Legend>
+    <Statistic>Statistic</Statistic>
+    <Runtime>Runtime</Runtime>
+    <StatisticTitle>THREAD    :     Frames |      NAKs |  Timeouts</StatisticTitle>
+    <Fails>Error-Messages</Fails>
+    <Result>
+      <Pass>Pass</Pass>
+      <Fail>Fail</Fail>
+    </Result>
+    <Status>
+      <Passed>Passed</Passed>
+      <Failed>Failed</Failed>
+      <Canceled>Canceled</Canceled>
+      <Unknown>Unknown Status</Unknown>
+    </Status>
+    <Conditions>
+      <ForConditionLoop>-- Condition Loop with variable: </ForConditionLoop>
+      <ConditionLoop>-- Condition Loop Number: </ConditionLoop>
+      <MacroStart>-- Macro begin</MacroStart>
+      <MacroEnd>-- Macro end</MacroEnd>
+    </Conditions>
+    <Manager>
+      <Processing>Script-Processing</Processing>
+    </Manager>
+    <Error>
+      <E-1>Test failed</E-1>
+      <E-2>Test aborted</E-2>
+      <E-10>Testsystem-Number not correct</E-10>
+      <E-11>General failure in executing test-script!</E-11>
+      <E-12>Failure with reading the test, might be a syntax-problem!</E-12>
+      <E-13>Condition not ended within same script or macro</E-13>
+      <E-14>Nesting level exceeded! More than 100</E-14>
+      <E-15>Error in start-arguments during applikation-start</E-15>
+      <E-16>Error in watchdog-initialising during applikation-start</E-16>
+      <E-17>Error in Main-Window-Initialising during applikation-start</E-17>
+      <E-18>Error in GUI-Initialising during applikation-start</E-18>
+      <E-19>Error in Manager-Initialising (incl. Test-, Log- and XML-Files, Sub-Thread-Initialising) during applikation-start</E-19>
+      <E-20>Error in Manager-Thread-Initialising during applikation-start</E-20>
+      <E-21>Error in Manager-Thread-Ended-Event</E-21>
+      <E-22>Error in Manager-Result-Event</E-22>
+      <E-23>Error in Task-Menu-Click-Event</E-23>
+      <E-24>Error in GO-Button-Click-Event</E-24>
+      <E-25>Error in STOP-Button-Click-Event</E-25>
+      <E-26>Error in STEP-Button-Click-Event</E-26>
+      <E-27>Error in starting manual command</E-27>
+      <E-28>Error in CANCEL-Button-Click-Event</E-28>
+      <E-29>Error in Watchdog-Event</E-29>
+      <E-30>Error in canceling command-threads</E-30>
+      <E-31>Exception during command-execution</E-31>
+      <E-32>Syntax-error im String-Parameter</E-32>
+      <E-33>Exception reading Command-Definitions-File</E-33>
+      <E-34>Exception reading Test-Scripts</E-34>
+      <E-35>Error reading SetupHW-File, or verification of Testsystem-Number or Projectname failed</E-35>
+      <E-36>Exception reading SetupHW-File</E-36>
+      <E-37>This Thread cannot execute this Command</E-37>
+      <E-38>Exception while initializing Befehl-Objects</E-38>
+      <E-39>Timeout while initializing Befehl-Objects</E-39>
+      <E-40>Exception reading Display-Definitions-File</E-40>
+      <E-41>Currently used Protocoll does not support this command</E-41>
+      <E-42>Condition-End does not match last Condition-Start</E-42>
+      <E-43>Exception reading Test-Data-File</E-43>
+      <E-44>Test-Data-File not found</E-44>
+      <E-45>Node in Test-Data-File not found</E-45>
+      <E-46>Timeout of command reached</E-46>
+      <!-- Befehls-Parameter-->
+      <E-100>Too few Parameters in String-Parameter of the command</E-100>
+      <E-101>Parameter missing in String-Parameter of the command</E-101>
+      <E-102>Wrong of missing String-Parameter-Unit</E-102>
+      <E-103>The waiting-end-time is passed already</E-103>
+      <E-104>The total waiting time is 0</E-104>
+      <E-105>No valid operator</E-105>
+      <E-106>External Tool aborted by Befehlsinterpreter</E-106>
+      <E-107>External Tool ended with error</E-107>
+      <E-108>Parameter-value invalid</E-108>
+      <E-109>Actual-value is empty</E-109>
+      <E-110>Counter-value-definition is not ended with }</E-110>
+      <E-112>No Counter-value available</E-112>
+      <E-113>Reference-value is empty</E-113>
+      <E-114>Check-Relativ not possible, due to no value found in current data</E-114>
+      <E-115>Comparing values not possible, due to no value found in current data</E-115>
+      <E-116>Comparing values not possible, due to no value found in given command-data</E-116>
+      <E-117>Given size within format has syntax-error</E-117>
+      <E-118>No decimal-values allowed for Arrays</E-118>
+      <E-119>Data too large for this meter-parameter</E-119>
+      <E-120>Odd numbers of bytes for word-array given</E-120>
+      <E-121>No negaitv sing allowed for this Data-Type of Meter-Parameter</E-121>
+      <E-122>Value exceeds size of Data-Type of Meter-Parameter</E-122>
+      <E-123>8 Bytes needed for this Data-Type of Meter-Parameter</E-123>
+      <E-124>Unknows type of this Parameter</E-124>
+      <E-125>Array-size is smaller as the amount of data</E-125>
+      <E-126>Struct-size is smaller as the amount of data</E-126>
+      <E-127>Name of Communication-Command not found</E-127>
+      <E-128>Read nominal-voltage by GetParameter leads to parsing error</E-128>
+      <E-129>Hardware-Device-Name in SetupHW not found</E-129>
+      <E-130>Signal-Name in SetupHW not found</E-130>
+      <E-131>Signal-Action in SetupHW not found</E-131>
+      <E-132>Number of Signal-Actions is smaller than 1</E-132>
+      <E-133>This Power-Supply-Signal has no voltage-parameter</E-133>
+      <E-134>Output-Signal not found in SetupHW-File</E-134>
+      <E-135>Type of Counter-Measuring unknown</E-135>
+      <E-136>Invalid number of iterations for Counter-Measurings</E-136>
+      <E-137>Invalid Display-Data or Settingsfile is not complete</E-137>
+      <E-138>A Boolean-Parameter could not be recognized as Boolean</E-138>
+      <E-139>Name of a S0-Input not found in SetupHW</E-139>
+      <E-140>Waiting for S0-Input not possible due to endless pulses</E-140>
+      <E-141>No valid Output-Signal found in command (splitted command due to Counter-value)</E-141>
+      <E-142>File for Loadpoint-Measurings could not be opened</E-142>
+      <E-143>Invalid unit of pulse-constant</E-143>
+      <E-144>The calculated Gate-time is smaller than 1ms</E-144>
+      <E-145>Missing informations for loadpoint-Measuring (Signal and/or pulse-constant or gate-time)</E-145>
+      <E-146>No expected-value given</E-146>
+      <E-148>Last performed communication does not support any check-command</E-148>
+      <E-149>The command does not own exact 2 Parameters</E-149>
+      <E-150>Invalid format-information for this command</E-150>
+      <E-151>Comparing values does not allow wildcards</E-151>
+      <E-152>Error in transformation from hex to decimal</E-152>
+      <E-153>Error in transformation from binary to decimal</E-153>
+      <E-154>Data-type does not support this operation</E-154>
+      <E-155>Position of desired value in string of the communication not found</E-155>
+      <E-156>Syntax-error in Format from the Address-file</E-156>
+      <E-157>Syntax-error of value of the command</E-157>
+      <E-158>Don't cares as X not sopported in this context</E-158>
+      <E-159>Syntax-error in values</E-159>
+      <E-160>This data-type cannot be transformed to decimal</E-160>
+      <E-161>File not found</E-161>
+      <E-162>Time-Format no recognized</E-162>
+      <E-163>Time contains invalid information</E-163>
+      <E-164>Maximal Date-Difference is 9999 days</E-164>
+      <E-165>File could not be created</E-165>
+      <E-166>No Value-Format-Character ($ or §) allowed here</E-166>
+      <E-167>Thread-Name unkown</E-167>
+      <E-168>Type-value invalid</E-168>
+      <E-169>Default-Value not available or empty</E-169>
+      <E-170>Operator (= or :) given with the default-value within the address-file is not suitable for this compare</E-170>
+      <!-- Hardware -->
+      <E-1185>Action empty</E-1185>
+      <E-1186>Device Data not found</E-1186>
+      <E-1187>Setup HW object not initialized</E-1187>
+      <E-1188>GetOutput Status Timeout occured</E-1188>
+      <E-1189>GetOutput Status reached before end of Delay</E-1189>
+      <E-1190>Invalid Device Data in Setup File</E-1190>
+      <E-1191>Maximal current exceeded</E-1191>
+      <E-1192>Maximal voltage exceeded</E-1192>
+      <E-1193>Harmonic-order of voltage and current do not match</E-1193>
+      <E-1194>Size of harmonic-data not the same for voltage and current</E-1194>
+      <E-1195>Invalid Service-Parameter</E-1195>
+      <E-1196>Invalid voltage</E-1196>
+      <E-1197>Service not supported</E-1197>
+      <E-1198>Devicename could not be mapped to communication-stack</E-1198>
+      <E-1199>Device Settingsfile not found</E-1199>
+      <!-- Sapphire -->
+      <E-1299>Sapphire Frame could not be created</E-1299>
+      <!-- Powersource -->
+      <E-1399>Unexpected answer</E-1399>
+      <E-1398>Timeout occured, Powersource busy</E-1398>
+      <E-1397>Wrong Firmware-Version</E-1397>
+      <E-1396>Check of settings failed</E-1396>
+      <E-1395>Unexpected answer received</E-1395>
+      <E-1394>Stop-command failed</E-1394>
+      <E-1393>Harmonics could not be applied</E-1393>
+      <E-1392>Harmonics naming not valid</E-1392>
+      <E-1391>Wrong Generator FW</E-1391>
+      <E-1390>Wrong Netzwerk Typ or amount of Phases</E-1390>
+      <E-1389>Angle out of valid range</E-1389>
+      <E-1389>Current out of valid range</E-1389>
+      <E-1388>Voltage out of valid range</E-1388>
+      <E-1387>Frequency out of valid range</E-1387>
+      <E-1386>Settings could not be applied</E-1386>
+      <!-- GPIB -->
+      <E-1499>GPIB Device could not be initialized</E-1499>
+      <E-1498>GPIB Receive Failed</E-1498>
+      <E-1497>GPIB Transmit Failed</E-1497>
+      <E-1496>System error</E-1496>
+      <E-1495>GPIB board is not CIC</E-1495>
+      <E-1494>No listener for write action</E-1494>
+      <E-1493>Interface not addressed correctly</E-1493>
+      <E-1492>Invalid Argument for function</E-1492>
+      <E-1491>GPIB borad is not SAC</E-1491>
+      <E-1490>IO operation abborted</E-1490>
+      <E-1489>GPIB Interface not existing</E-1489>
+      <E-1488>GPIB DMA Error</E-1488>
+      <E-1487>GPIB IO operation already running</E-1487>
+      <E-1486>Function not possible</E-1486>
+      <E-1485>Filesystem operation error</E-1485>
+      <E-1484>Command Error</E-1484>
+      <E-1483>Serial poll staus lost</E-1483>
+      <E-1482>SQR is still active</E-1482>
+      <E-1481>Buffer full</E-1481>
+      <E-1480>Address board is locked</E-1480>
+      <E-1479>Ibnotify callback error</E-1479>
+      <E-1478>Invalid Handle</E-1478>
+      <E-1477>Already waiting</E-1477>
+      <E-1476>Event Notification abborted</E-1476>
+      <E-1475>GPIB Error unknown</E-1475>
+      <E-1474>GPIB target-device not available</E-1474>
+      <!-- HP Devices-->
+      <E-1599>Unexpected answer at Get Response</E-1599>
+      <E-1598>Invalid Parameter</E-1598>
+      <E-1597>Invalid Channel-Name</E-1597>
+      <E-1596>Wrong Identification</E-1596>
+      <E-1595>Multiple use of same order-number</E-1595>
+      <E-1594>Powerup / Powerdown Data could not be read</E-1594>
+      <E-1593>Command is empty</E-1593>
+      <!-- ABUS-->
+      <E-1699>Abus Device could not be locked</E-1699>
+      <E-1698>Abus Device release failed</E-1698>
+      <E-1697>No valid Abus Handle (Not connected with Device)</E-1697>
+      <!-- PtcProtocolLayerCOM -->
+      <E-100089>Comport-Buffer too small for size of data</E-100089>
+      <E-100090>Comport-Name could not be changed</E-100090>
+      <E-100091>Comport open failed</E-100091>
+      <E-100092>Comport settings not set</E-100092>
+      <E-100093>Comport not open</E-100093>
+      <E-100094>Comport receive failed</E-100094>
+      <E-100095>Comport transmit failed</E-100095>
+      <E-100096>Comport echo receive failed</E-100096>
+      <E-100097>Parameter could not be changed</E-100097>
+      <E-100098>Parameter could not be read</E-100098>
+      <E-100099>Break setting failed</E-100099>
+      <!-- PtcProtocolLayerIP -->
+      <E-100193>Connection lost</E-100193>
+      <E-100194>Connection could not be closed</E-100194>
+      <E-100195>Connection to target address could not be established</E-100195>
+      <E-100196>IP Send Error occured</E-100196>
+      <E-100197>Reading remaining data failed</E-100197>
+      <E-100198>IP Receive Error occured</E-100198>
+      <E-100199>No connection established</E-100199>
+      <!-- TLS Protocol -->
+      <E-100298>TLS stream error</E-100298>
+      <E-100299>TLS handshake failed</E-100299>
+      <!-- Allgemein -->
+      <E-106001>Receive-Timeout</E-106001>
+      <E-106002>Layer initializing failed</E-106002>
+      <E-106003>NAK received</E-106003>
+      <E-106004>Address-File parsing failed</E-106004> 
+      <E-106005>Parameter not found in addressfile</E-106005> 
+      <E-106006>Address Int Parse Failed</E-106006> 
+      <E-106007>Adress Hex 2 Int failed</E-106007> 
+      <E-106008>Address File could not be read</E-106008> 
+      <E-106009>Stack could not be build</E-106009> 
+      <E-106010>Driver initialization failed</E-106010>
+      <E-106014>Reference part limits outside of actual value</E-106014>
+      <E-106015>Value not found</E-106015>
+      <E-106016>Methode not implemented</E-106016>
+      <E-106017>Driver not initialized</E-106017>
+      <E-106018>Unknown Protocol</E-106018>
+      <E-106019>Stack not initalized</E-106019>
+      <E-106020>Layer-Setting not found or invalid value</E-106020>
+      <E-106021>This protocol does not support this command</E-106021>
+      <E-106022>Unexpected Service</E-106022>
+      <E-106030>Invalid Protocol Profile Layer Name: </E-106030>
+      <!-- IEC1107 -->
+      <E-107006>Checksum-error</E-107006>
+      <E-107068>Invalid HLS_ID2 algoritm selection</E-107068>
+      <E-107069>W1 Parameter-list and Data-list do not match</E-107069>
+      <E-107070>Int2Hex transforming only for Numbers 0-15 possible</E-107070>
+      <E-107071>Hex2Int transforming only for Characters 0-9 A-F possible</E-107071>
+      <E-107072>Invalid Modus for CalcPassword</E-107072>
+      <E-107073>P0 Password length not equal to 8</E-107073>
+      <E-107074>Communication ended with B0</E-107074>
+      <E-107075>Frame not ending with 0x03/0x04 [End of Text/Transmission]</E-107075>
+      <E-107076>Frame not starting with 0x02 [Start of Transmission]</E-107076>
+      <E-107077>Response Frame length larger than expected</E-107077>
+      <E-107078>Response Frame error</E-107078>
+      <E-107079>Unexpected answer received</E-107079>
+      <E-107080>Expected ACK not received</E-107080>
+      <E-107081>Invalid ModeE-frame-format</E-107081>
+      <E-107082>Invalid ModeC-frame-format</E-107082>
+      <E-107083>Invalid Readout-frame-format</E-107083>
+      <E-107084>Invalid Open-frame-format</E-107084>  
+      <E-107085>Low Security</E-107085>  
+      <E-107086>Wrong Data in command</E-107086>  
+      <E-107087>Command unknown</E-107087>  
+      <E-107088>Command not accepted</E-107088>  
+      <E-107089>Softwareparity error</E-107089>  
+      <E-107090>Login failed</E-107090>  
+      <E-107094>Command-File reading failed</E-107094>
+      <E-107095>Command-File not found</E-107095>
+      <E-107096>Command-File parsing failed</E-107096>
+      <E-107097>Address File not found</E-107097>
+      <E-107098>Settings-file not found</E-107098>
+      <E-107099>Settings-file could not be read</E-107099>
+      <!-- SML -->
+      <E-107101>Checksum-error</E-107101>
+      <E-107102>Blocknumber not incremented</E-107102>
+      <E-107103>Missing Node in command</E-107103>
+      <E-107104>Unexpected Node in command</E-107104>
+      <E-107105>Exception by reading the XML-structur of the command</E-107105>
+      <E-107106>SML-Message not completed</E-107106>
+      <E-107107>Value to large for data-type</E-107107>
+      <E-107108>Value not transformable to number</E-107108>
+      <E-107109>Qty-Value in Node of the SML-command is smaller than 1</E-107109>
+      <E-107110>Exception accessing Node-Attribute of SML-command</E-107110>
+      <E-107111>Length of Data-type is larger than supported</E-107111>
+      <E-107112>Analysis of SML-PDU failed</E-107112>
+      <E-107113>SML-Attention: General error</E-107113>
+      <E-107114>SML-Attention: Unknown SML-Message</E-107114>
+      <E-107115>SML-Attention: Insufficient or wrong Authetification</E-107115>
+      <E-107116>SML-Attention: Server-ID not available</E-107116>
+      <E-107117>SML-Attention: ReqFileId not available</E-107117>
+      <E-107118>SML-Attention: One or several attributes not writeable</E-107118>
+      <E-107119>SML-Attention: One or several attributes not readable</E-107119>
+      <E-107120>SML-Attention: Communication failed to meter-point</E-107120>
+      <E-107121>SML-Attention: Raw-data not possible to parse</E-107121>
+      <E-107122>SML-Attention: Value out of valid range</E-107122>
+      <E-107123>SML-Attention: Order not performed</E-107123>
+      <E-107124>SML-Attention: Checksum wrong</E-107124>
+      <E-107125>SML-Attention: Broadcast not supported</E-107125>
+      <E-107126>SML-Attention: Unexpected SML-Message</E-107126>
+      <E-107127>SML-Attention: Unknown object in profile</E-107127>
+      <E-107128>SML-Attention: Datatyp not supported</E-107128>
+      <E-107129>SML-Attention: Optional Element not supported</E-107129>
+      <E-107130>SML-Attention: Profile empty</E-107130>
+      <E-107131>SML-Attention: Profila-request with end-time earlier than start-time</E-107131>
+      <E-107132>SML-Attention: No Profile-entries within desired time-range</E-107132>
+      <E-107133>SML-Attention: SML-File not ending with SML-Close</E-107133>
+      <E-107134>SML-Attention: Unknown Attention</E-107134>
+      <E-107135>SML-Addressfile not found</E-107135>
+      <E-107136>SML-Addressfile not readable</E-107136>
+      <E-107137>Data-type in SML-Addressfile unknown</E-107137>
+      <E-107138>Parameter in Addressfile not found</E-107138>
+      <E-107139>OctetString must be given by HEX-Data</E-107139>
+      <!-- ICTT -->
+      <E-107201>ICTT Command-File not readable</E-107201>
+      <E-107202>ICTT Command not found in Command-File</E-107202>
+      <E-107203>ICTT Command-File not found</E-107203>
+      <E-107204>ICTT not connected with meter</E-107204>
+      <E-107205>Desired ICTT-command not supported</E-107205>
+      <E-107206>Adding information to frame supports only 1-, 2-, and 4-Byte values</E-107206>
+      <E-107207>Response-command does not match request-command</E-107207>
+      <E-107208>Discovery not successful</E-107208>
+      <E-107209>Empty PDU received</E-107209>
+      <E-107210>PDU-Length just supported for up to 65535</E-107210>
+      <E-107211>ICTT-Error-message received</E-107211>
+      <!-- Modem -->
+      <E-107301>Invalid answer</E-107301>
+      <E-107302>Modem Dial not successful</E-107302>
+      <E-107303>Modem Command-File not readable</E-107303>
+      <E-107304>Modem Command not found within Command-File</E-107304>
+      <E-107305>No phonenumber available for connection</E-107305>
+      <E-107306>Modem Command-File not found</E-107306>
+      <E-107307>Modem not connected</E-107307>
+      <E-107308>Modem receive-condition invalid (only numbers 0 to 9 are valid): </E-107308>
+      <!-- DLMS -->
+      <E-107405>Maximum numbers of RR Frame reached</E-107405>
+      <E-107409>Read-Write-Denied</E-107409>
+      <E-107410>Access-Violated</E-107410>
+      <E-107411>Type-Unmatched</E-107411>
+      <E-107412>Temp-Failure</E-107412>
+      <E-107414>Exception-Response received</E-107414> 
+      <E-107415>Error unknown</E-107415> 
+      <E-107416>No LongSet in progress</E-107416> 
+      <E-107417>LongSet aborted</E-107417> 
+      <E-107418>No LongGet in progress</E-107418> 
+      <E-107419>LongGet aborted</E-107419> 
+      <E-107420>Data-Block not available</E-107420> 
+      <E-107421>Object not available</E-107421> 
+      <E-107422>Object-class inconsistent</E-107422> 
+      <E-107423>Object not defined</E-107423> 
+      <E-107424>Hardware-Error</E-107424> 
+      <E-107425>Other error</E-107425> 
+      <E-107426>Ti unusable</E-107426> 
+      <E-107427>Ti running</E-107427> 
+      <E-107428>Ti stopped</E-107428> 
+      <E-107429>No Remote-Control</E-107429> 
+      <E-107430>Data-set not ready</E-107430> 
+      <E-107431>Memory-error</E-107431> 
+      <E-107432>Interpretation-error</E-107432> 
+      <E-107433>Unexpected Segment</E-107433> 
+      <E-107434>Data-set-size too large</E-107434> 
+      <E-107435>Could not be loaded</E-107435> 
+      <E-107436>Primitive Out-of-Sequence</E-107436> 
+      <E-107437>Refused by VDE-Handler</E-107437> 
+      <E-107438>PDU-size too small</E-107438> 
+      <E-107439>Incompatible Conformance</E-107439> 
+      <E-107440>DLMS-Version too small</E-107440> 
+      <E-107441>Object-access invalid</E-107441> 
+      <E-107442>Object-attribute inconsistent</E-107442> 
+      <E-107443>Service not supported</E-107443> 
+      <E-107444>PDU-Size-error</E-107444> 
+      <E-107445>Status Inoperable</E-107445> 
+      <E-107446>Status Nochange</E-107446> 
+      <E-107447>Loading Dataset</E-107447> 
+      <E-107448>No DLMS-Kontext</E-107448> 
+      <E-107449>Other Resource not available</E-107449> 
+      <E-107450>Mass-Storage not available</E-107450> 
+      <E-107451>Processor-Resourcen not available</E-107451> 
+      <E-107452>No Memory available</E-107452> 
+      <E-107453>Decrypting-Error</E-107453> 
+      <E-107454>Provider-Communication-Error</E-107454> 
+      <E-107455>Application-Kontext not supported</E-107455> 
+      <E-107456>Application-Referenz invalid</E-107456> 
+      <E-107457>Application not reachable</E-107457> 
+      <E-107458>Timed-out</E-107458> 
+      <E-107464>HDLC-Address out of valid range</E-107464> 
+      <E-107465>Block-Transfer not supported for this Service</E-107465> 
+      <E-107466>Frame Length cannot be calculated </E-107466> 
+      <E-107467>ApTitle-length must be 8 Bytes </E-107467> 
+      <E-107468>Frame Counter length must be 4</E-107468> 
+      <E-107469>Decrypting could not be verified </E-107469> 
+      <E-107470>Decrypting failed </E-107470> 
+      <E-107471>PDU not encrypted </E-107471> 
+      <E-107472>Encrypting failed </E-107472> 
+      <E-107473>Hex Char missing in Challenge or Key</E-107473> 
+      <E-107474>Wrong state</E-107474>
+      <E-107475>Unknown PDU</E-107475>
+      <E-107476>PDU too large</E-107476>
+      <E-107477>OctetString not found</E-107477>
+      <E-107478>HLS could not be established</E-107478>
+      <E-107479>Mixed Request</E-107479>
+      <E-107480>Length not supported</E-107480>
+      <E-107481>Block missing</E-107481>
+      <E-107482>Type not matching</E-107482>
+      <E-107483>Invalid InvokeId</E-107483>
+      <E-107484>Unknown Tag</E-107484>
+      <E-107485>Unexpected PDU-end</E-107485>
+      <E-107486>Attributname in Addressfile not found</E-107486>
+      <E-107487>Unexpected Symbol</E-107487>
+      <E-107488>Transforming Error</E-107488>
+      <E-107489>Unknown Symbol</E-107489>
+      <E-107490>Buffer Length must be even</E-107490>
+      <E-107491>AARQ refused</E-107491>
+      <E-107492>Retrial Count exceeded </E-107492>
+      <E-107493>Timeout occured</E-107493>
+      <E-107494>FRMR Frame received</E-107494>
+      <E-107495>DM Frame received</E-107495>
+      <E-107496>Connect confirmation failed</E-107496>
+      <E-107497>Unexpected Frame</E-107497>
+      <E-107499>Frame Invalid</E-107499>
+      <!-- IEC870 -->
+      <E-107501>Frame-Data too large</E-107501>
+      <E-107502>Frame-Typ 1.1 does not know Fix-Length-Frames</E-107502>
+      <E-107503>Frame-Typ unknown: </E-107503>
+      <E-107504>Desired Frame-Type unknown (no fix-length, no var-length, no single-Character)</E-107504>
+      <E-107505>Frame-Checksum wrong</E-107505>
+      <E-107506>Frame-End-Character wrong</E-107506>
+      <E-107507>Frame-Start-Character wrong</E-107507>
+      <E-107508>Frame-Length wrong</E-107508>
+      <E-107509>IEC870-Function for Control-Field no supported</E-107509>
+      <E-107510>IEC870-Object in Address-List not found</E-107510>
+      <E-107511>IEC870-Address-File not found</E-107511>
+      <E-107512>IEC870-Address-File not readable</E-107512>
+      <E-107513>Unknown Type-Identification</E-107513>
+      <E-107514>Unknown Cause-Of-Transmition</E-107514>
+      <E-107515>Unknown Common-Address-ASDU</E-107515>
+      <E-107516>Unknown Information-Object-Address</E-107516>
+      <E-107517>Incorrect answer to last U-Frame sent</E-107517>
+      <E-107518>No Data given for command</E-107518>
+      <E-107519>No matching frame for request received withing MaxFrameUntilResponse</E-107519>
+      <E-107520>More than MaxFrameUntilResponse blocks in response</E-107520>
+      <!-- Modbus -->
+      <E-107601>Frame-Checksum wrong</E-107601>
+      <E-107602>Frame-Start-Character wrong</E-107602>
+      <E-107603>Frame-Length wrong</E-107603>
+      <E-107604>Modbus-Command-File not found</E-107604>
+      <E-107605>Modbus-Command-File not readable</E-107605>
+      <E-107606>Modbus-Command not found</E-107606>
+      <E-107607>Modbus-Function-code not supported</E-107607>
+      <E-107608>Modbus-Exception 01: Funktion-code not supported</E-107608>
+      <E-107609>Modbus-Exception 02: Size not ok</E-107609>
+      <E-107610>Modbus-Exception 03: Address and/or Address-Range (Start-address + Size) not ok</E-107610>
+      <E-107611>Modbus-Exception 04: Performing of Function failed</E-107611>
+      <E-107612>Modbus-Exception unknown</E-107612>
+      <E-107613>Modbus-Register-Size not supported</E-107613>
+      <!-- ABNT -->
+      <E-107701>ABNT-Address-File not found</E-107701>
+      <E-107702>ABNT-Command-File read failed</E-107702>
+      <E-107703>ABNT-Command-File not found</E-107703>
+      <E-107704>ABNT-Command-File parsing failed</E-107704>
+      <E-107705>ABNT-Answer wrong (Command-Codes or other information)</E-107705>
+      <E-107706>ABNT-Answer Address-Error</E-107706>
+      <E-107707>ABNT-Answer number bytes error</E-107707>
+      <E-107708>ABNT-Answer unknown error</E-107708>
+      <E-107709>ABNT-Answer Backup-Error</E-107709>
+      <E-107710>ABNT-Command not implemented in the meter</E-107710>
+      <E-107711>ABNT-Response 40 Error</E-107711>
+      <E-107712>ABNT-System Failure</E-107712>
+      <E-107713>ABNT-Unknown Error Code</E-107713>
+      <E-107714>ABNT-Data of answer in different to data of request</E-107714>
+      <E-107715>ABNT-Data not validated</E-107715>
+      <E-107716>ABNT-Data de-validated</E-107716>
+      <E-107717>ABNT-Unkown Encryption Algorithm</E-107717>
+      <E-107718>ABNT-Processing the response failed</E-107718>
+      <E-107719>ABNT-Maximal amount of Blocks (999) exceeded</E-107719>
+      <E-107720>ABNT-Invalid Extended-Code</E-107720>
+      <!-- KF2 -->
+      <E-107801>KF2 Parameter And Data Count Not Equal</E-107801>
+      <E-107802>KF2 Invalid Command Response</E-107802>
+      <E-107803>KF2 Access Denied Response</E-107803>
+      <E-107804>KF2 Packet Invalid Response</E-107804>
+      <E-107805>KF2 Internal Error Response</E-107805>
+      <E-107806>KF2 Invalid Baud Response</E-107806>
+      <E-107807>KF2 Table Does Not Exist Response</E-107807>
+      <E-107808>KF2 Table Size Error Response</E-107808>
+      <E-107809>KF2 CRC Error Response</E-107809>
+      <E-107810>KF2 Decryption Error Response</E-107810>
+      <E-107811>KF2 Stream Error Response</E-107811>
+      <E-107812>KF2 Stream Mode Not Supported Response</E-107812>
+      <E-107813>KF2 Stream Cancel Response</E-107813>
+      <E-107814>KF2 Incorrect Request ID</E-107814>
+      <E-107815>KF2 Packet Encryption Incorrect</E-107815>
+      <E-107816>KF2 Packet Decryption Incorrect</E-107816>
+      <E-107817>KF2 Incorrect Start Byte</E-107817>
+      <E-107818>KF2 Firmware Download Field Incorrect Parameter Use</E-107818>
+      <E-107819>KF2 Firmware Download Unable to open firmware file or firmware file version is not correct</E-107819>
+      <E-107820>KF2 Firmware Download Login Timeout</E-107820>
+      <E-107821>KF2 Firmware DownloadSync Failure</E-107821>
+      <E-107822>KF2 Firmware Download Unknown Error</E-107822>
+      <!-- IEC13757 -->
+      <E-108077>Received wrong IEC13757 frame type</E-108077>
+      <E-108078>Missing arguments to command</E-108078>
+      <E-108079>IEC13757 VIFE length violation</E-108079>
+      <E-108080>IEC13757 VIF information truncated</E-108080>
+      <E-108081>IEC13757 DIF length violation</E-108081>
+      <E-108082>IEC13757 DIF information truncated</E-108082>
+      <E-108083>IEC13757 Missing manufacturer specific block in receive data</E-108083>
+      <E-108084>IEC13757 Received Error response</E-108084>
+      <E-108085>IEC13757 Received Illegal Mode Error response</E-108085>
+      <E-108086>IEC13757 Received Test Error response</E-108086>
+      <E-108087>IEC13757 Received EEPROMError response</E-108087>
+      <E-108088>IEC13757 Received Undefined Command response</E-108088>
+      <E-108089>IEC13757 Received Syntax Error response</E-108089>
+      <E-108090>IEC13757 Application part of received frame is too short</E-108090>
+      <E-108091>IEC13757 Header of the application block too short</E-108091>
+      <E-108092>IEC13757 Function for Control-Field not supported</E-108092>
+      <E-108093>IEC13757 Received wrong acknowledge frame</E-108093>
+      <E-108094>IEC13757 Code file reading failed</E-108094>
+      <E-108095>IEC13757 Code file not found</E-108095>
+      <E-108096>IEC13757 Code file parsing failed</E-108096>
+      <E-108097>IEC13757 Address file reading failed</E-108097>
+      <E-108098>IEC13757 Address file not found</E-108098>
+      <E-108099>IEC13757 Address file parsing failed</E-108099>
+      <!-- Device Simulation -->
+      <E-108192>Device simulation transmit buffer mismatch</E-108192>
+      <E-108193>Device simulation transmit buffer length different</E-108193>
+      <E-108194>Device simulation illegal transmit service</E-108194>
+      <E-108195>Device simulation transmit service mismatch</E-108195>
+      <E-108196>Device simulation response file empty</E-108196>
+      <E-108197>Device simulation response reading failed</E-108197>
+      <E-108198>Device simulation response file not found</E-108198>
+      <E-108199>Device simulation response file parsing failed</E-108199>
+
+      <Unknown>Unknown Error!</Unknown>
+    </Error>
+    <Message>
+      <M1>-- Condition-Result: PASS</M1>
+      <M2>-- Condition-Result: FAIL</M2>
+      <M3>***** ScreenLog Start *****</M3>
+      <M4>***** ScreenLog End *****</M4>
+      <M5>***** Logfile Import Start ***** </M5>
+      <M6>***** Logfile Import End ***** </M6>
+      <M7>Exit-Code of External-Tool is not 0: </M7>
+      <M8>Actual-Value: </M8>
+      <M9>Actual-Value/Reference-Value: </M9>
+      <M10>Actual-Difference/Reference-Difference: </M10>
+      <M11>Actual-Format/Reference-Format: </M11>
+      <M12>Missing Parameter: </M12>
+      <M13>Missing Parameter Number </M13>
+      <M14>Compare with Tolerances, Actual-Value/Reference-Value min./Reference-Value max.: </M14>
+      <M15>Protocol-Stack-Parameter not existing: </M15>
+      <M16>Protocol-Stack not initialized in: </M16>
+      <M17>In: </M17>
+      <M18>Counter-Measuring-Result Min/Max/Average: </M18>
+      <M19>Reference/Actual/Difference: </M19>
+      <!--PtcProtocolManager-->
+      <M20>Profile not found: </M20>
+      <!-- PtcProtocolLayerCOM -->
+      <M21>Methode not implemented</M21>
+      <M22>Error in Display-Setting-file: </M22>
+      <M23>Frame-compare, Actual-Frame/Expected-Frame: </M23>
+      <M24>New Value with correction: </M24>
+      <M25>Calculation of corrected value: </M25>
+      <M26>Data to write: </M26>
+      <M27>Error in Test-Data-File: </M27>
+      <M28>Node in Test-Data-File not found: </M28>
+      <M29>Object not found in Addressfile: </M29>
+      <M30>Addressfile not found: </M30>
+      <M31>Adressfile read failed: </M31>
+      <M32>No data given</M32>
+      <M33>Unknown Input Data: </M33>
+      <M34>Did not find line with number: </M34>
+      <M35>Did not find code in response: </M35>
+      <M40>&lt;- </M40>
+      <M41>-&gt; </M41>
+      <M42>ComOpenFailed</M42>
+      <M43>Settings could not be taken </M43>
+      <M44>ComReceiveFailed</M44>
+      <M45>New Baudrate: </M45>
+      <M46>ComTransmitFailed</M46>
+      <M47>ReceiveEchoFailed</M47>
+      <M48>Break set in: </M48>
+      <M49>Break reset in:</M49>
+      <M50>-- Break set --</M50>
+      <M51>COMPORT opened: </M51>
+      <M52>COMPORT closed: </M52>
+      <M53>COMPORT not open</M53>
+      <M54>Changing COMPORT-Name failed</M54>
+      <M55>COMPORT-Buffer too small for data (Data/Buffer): </M55>
+      <M56>SML-PDU Analysis failed at Position: </M56>
+      <M57>Data-type in SML-Address-list unknown: </M57>
+      <M58>Parameter in SML-Addressfile not found: </M58>
+      <M59>Message checksum wrong (Reference/Actual): </M59>
+      <M60>Address tramsforming HEX -> INT failed at: </M60>
+      <M61>File: </M61>
+      <M62>Modem Dial not successful</M62>
+      <M63>Command-File not found: </M63>
+      <M64>Command-File reading failed: </M64>
+      <M65>Command in Command-File not found: </M65>
+      <M66>No Phone-number available for Modem-connection: </M66>
+      <M67>Modem not connected</M67>
+      <M68>Modem receive-condition invalid (only numbers 0 to 9 are valid): </M68>
+      <M69>HDLC-Address out of valid range</M69> 
+      <M70>Error in File/Linenumber: </M70>
+      <M71>Modbus-Function-code not supported: </M71>
+      <M72>Modbus-Register-size not supported: </M72>
+      <M73>Blocknumber not as expected in </M73>
+      <M74>ICTT not connected to meter</M74>
+      <M75>Desired ICTT-Command not supported, Command-ID: </M75>
+      <M76>Adding information to frame supports only 1-, 2-, and 4-Byte values, size: </M76>
+      <M77>Response-command does not match request-command, received command-ID: </M77>
+      <M78>Meter not found in net</M78>
+      <M79>Empty PDU received</M79>
+      <M80>PDU-Length just supported for up to 65535</M80>
+      <M81>ICTT-Error-message received: </M81>
+      <M82>Length of IEC870-Frames too large</M82>
+      <M83>Frame-Typ 1.1 does not know Fix-Length-Frames</M83>
+      <M84>Frame-Type unknown</M84>
+      <M85>Frame-Subtype unknown</M85>
+      <M86>Frame-Checksum is wrong</M86>
+      <M87>Frame-End-Character is wrong</M87>
+      <M88>Frame-Start-Character is wrong</M88>
+      <M89>Frame-Length is wrong</M89>
+      <M90>IEC870-Function for Control-Field is not supported: </M90>
+      <M91>Missing Node in command </M91>
+      <M92>Unexpected Node in command </M92>
+      <M93>Exception by reading the XML-Structure of the commando: </M93>
+      <M94>SML-Message not complete</M94>
+      <M95>Value too large for Data-type: </M95>
+      <M96>Value not transformable to number: </M96>
+      <M97>Qty-Value in Node of the SML-command is smaller than 1: </M97>
+      <M98>Exception accessing Node-Attribute of SML-command: </M98>
+      <M99>Length of Data-type is larger than supported: </M99>
+      <M100>IP connect Failed </M100>
+      <M101>IP Disconnect: </M101>
+      <M102>IP Connect successful: </M102>
+      <M103>IP Connection lost: </M103>
+      <M110>WARNING, exception while closing interface: </M110>
+      <M111>AARE-Result-Source-Diagnostic (ACSE-Service-User): </M111>
+      <M112>AARE-Result-Source-Diagnostic (ACSE-Service-Provider): </M112>
+      <!---->
+      <M120>Wrong Start Flag in Frame</M120>
+      <M121>Wrong End Flag in Frame</M121>
+      <M122>Format Field unknown</M122>
+      <M123>Frame Length not correct</M123>
+      <M124>Wrong destination Address</M124>
+      <M125>Wrong Source Address</M125>
+      <M126>Unknown Frame Type</M126>
+      <M127>Checksum wrong</M127>
+      <M128>Unexpected Service</M128>
+      <M129>Unexpected Frame</M129>
+      <M130>Info: </M130>
+      <M131>Target-host has answered with a DM Frame</M131>
+      <M132>Target-host has answered with a FRMR Frame</M132>
+      <M133>Timeout occured</M133>
+      <M134>Frame sending aborted</M134>
+      <M135>Length must be even</M135>
+      <M136>No valid Symobl </M136>
+      <M137>Transforming error due to unequal lengths</M137>
+      <M138>Transforming error due to wrong character</M138>
+      <M139>: </M139>
+      <M140>Unexpected Symbol</M140>
+      <M141>Unexpected Tag</M141>
+      <M142>Actual InvokeId not correct</M142>
+      <M143>Translation of Action</M143>
+      <M144>Translation of Set</M144>
+      <M145>Translation of Write</M145>
+      <M146>Connection not established</M146>
+      <M147>HLS connection not established</M147>
+      <M148>Stack in wrong state</M148>
+      <M149>Setting InfoFieldLengthTX to:</M149>
+      <M150>Setting InfoFieldLengthRX to:</M150>
+      <M151>Setting WindowSizeTX to:</M151>
+      <M152>Setting WindowSizeRX to:</M152>
+      <M153>Setting RSN to:</M153>
+      <M154>Setting SSN to:</M154>
+      <M155>Invalid Password-length</M155>
+      <M156>Hex Character missing in challange or Key</M156>
+      <M157>Invalid Password-calculation-mode</M157>
+      <M158>Encryption failed</M158>
+      <M159>PDU not encrypted</M159>
+      <M160>Decrypting failed</M160>
+      <M161>Decrypting could not be verified</M161>
+      <M162>Parsing failed for INT</M162>
+      <M163>ApTitle-length must be 8 Bytes </M163>
+      <M164>Frame Counter length must be 4</M164>
+      <M165>Frame Length cannot be calculated</M165>
+      <M166>Parsing to Double failed</M166>
+      <M167>Setting-file not found</M167>
+      <M168>HW-Stack unknown:</M168>
+      <M169>Simulator not initialized</M169>
+      <M170>Access to unitialized Stack</M170>
+      <M171>Service not implemented</M171>
+      <M172>Size of harmonic-data not the same for voltage and current</M172>
+      <M173>Harmonic-order of voltage and current do not match, Order must be the same </M173>
+      <M174>Multiple use of same Order number in: </M174>
+      <M175>Device Data invalid in Setupfile: </M175>
+      <M176>Setup HW object not initialized</M176>
+      <M177>Aktions Payload enpty in Setupfile: </M177>
+      <M178>Communication exceeded maximum number of repeating RR Frames</M178>
+      <M179>PDU too large, but Block-Transfer not supported for this Service</M179>
+      <!-- GPIB -->
+      <M220>GPIB Init: </M220>
+      <M221>Device could not be initialized, Address: </M221>
+      <M222>GPIB receive failed, IBSTA: </M222>
+      <M223>GPIB transmit failed, IBSTA: </M223>
+      <!-- ABUS -->
+      <M240>Abus Device FOUND [Dev/ID]: </M240>
+      <M241>Abus Device LOCKED [Dev/ID]: </M241>
+      <M242>Abus Device released: </M242>
+      <M243>Abus command could not be performed: </M243>
+      <M244>Abus command message: </M244>
+      <M245>Abus command message unknown</M245>
+      <M246>Wait until end of running sequence</M246>
+      <M247>No Running Sequence</M247>
+      <M248>Running Sequence ended</M248>
+      <M249>Voltage Sequence started</M249>
+      <!-- ABNT -->
+      <M260>ABNT Info: Response(40) - Eventcode: </M260>
+      <M261>ABNT Invalid Extended-Code: </M261>
+      <!-- IEC13757 -->
+      <M320>File not found: </M320>      
+      <M321>File reading failed: </M321>      
+      <M322>Function for Control-Field not supported in IEC13757</M322>
+      <M323>IEC13757 Header of the application block too short</M323>
+      <M324>IEC13757 Application part of received frame is too short</M324>
+      <M325>IEC13757 DIF information truncated</M325>
+      <M326>IEC13757 DIF length violation</M326>
+      <M327>IEC13757 VIF information truncated</M327>
+      <M328>IEC13757 VIFE length violation</M328>
+      <M329>Missing arguments to command</M329>
+      <!-- Device simulation -->
+      <M340>Device simulation response file not found</M340>
+      <M341>Device simulation response file parsing failed</M341>
+      <M342>Position, Actual-Value/Reference-Value: </M342>
+      <M343>HLS_ID2 mechanism started: </M343>
+      <!-- TLS Protocol -->
+      <M360>TLS stream error</M360>
+      <M361>TLS protocol version: </M361>
+      <M362>TLS bulk encryption algorithm: </M362>
+      <M363>TLS bulk encryption strength: </M363>
+      <M364>TLS hash algorithm: </M364>
+      <M365>TLS hash strength: </M365>
+      <M366>TLS key exchange algorithm: </M366>
+      <M367>TLS key exchange strength: </M367>
+      <M368>TLS local certificate information: </M368>
+      <M369>TLS remote certificate information: </M369>
+      <M370>--- subject: </M370>
+      <M371>--- issuer: </M371>
+      <M372>--- valid from: </M372>
+      <M373>--- valid until: </M373>
+      <M374>--- serial number: </M374>
+      <M375>TLS certificate revocation checked</M375>
+      <M376>TLS certificate revocation not checked</M376>
+      <M377>TLS certificate validation successful</M377>
+      <M378>TLS certificate validation error: </M378>
+      <M379>TLS certificate validation error tolerated by policy: </M379>
+      <M380>TLS certificate chain element #</M380>
+      <M381>TLS certificate chain number of elements: </M381>
+      <M382>TLS authentication successful</M382>
+      <M383>TLS authentication not successful</M383>
+      <M384>TLS authentication invalid policy setting: </M384>
+      <M385>TLS authentication invalid protocol version setting: </M385>
+      <M386>TLS authentication exception: </M386>
+      <M387>TLS authentication inner exception: </M387>
+      <M388>TLS stream encrypted</M388>
+      <M389>TLS stream not encrypted</M389>
+
+      <Unknown>Unknown Message!</Unknown>
+    </Message>
+  </EN>
+</Log>
