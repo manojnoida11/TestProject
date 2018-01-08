@@ -14,6 +14,7 @@ namespace TestProject
         
         public void Test()
         {
+            Console.WriteLine("change 1 made by manojnoida");
             m_oXmlDoc.Load(c_sFilenameBIxml);
             XmlNode node = m_oXmlDoc.SelectSingleNode("Log/EN/Legend");
         }
