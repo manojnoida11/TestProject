@@ -14,6 +14,8 @@ namespace TestProject
         
         public void Test()
         {
+            Console.WriteLine("change 2 made by manojnoida");
+
             Console.WriteLine("change 1 made by manojnoida");
             Console.WriteLine("Change 1 made ny manoj");
             m_oXmlDoc.Load(c_sFilenameBIxml);
