@@ -4,3 +4,9 @@ E:\Test_Apps\TestProject\TestProject\bin\Debug\TestProject.pdb
 E:\Test_Apps\TestProject\TestProject\obj\Debug\TestProject.csprojResolveAssemblyReference.cache
 E:\Test_Apps\TestProject\TestProject\obj\Debug\TestProject.exe
 E:\Test_Apps\TestProject\TestProject\obj\Debug\TestProject.pdb
+D:\test\TestProject\TestProject\bin\Debug\TestProject.exe.config
+D:\test\TestProject\TestProject\bin\Debug\TestProject.exe
+D:\test\TestProject\TestProject\bin\Debug\TestProject.pdb
+D:\test\TestProject\TestProject\obj\Debug\TestProject.csprojResolveAssemblyReference.cache
+D:\test\TestProject\TestProject\obj\Debug\TestProject.exe
+D:\test\TestProject\TestProject\obj\Debug\TestProject.pdb
